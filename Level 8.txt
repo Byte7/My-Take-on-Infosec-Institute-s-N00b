@@ -1,0 +1,9 @@
+Writeup - 
+
+On Opening up level 8, We have to download a file named app.exe . 
+This point me to figure that this challenge is of the reverse engineering type. 
+But before going all out on reverse engineering with ollydbg,etc. ,since I have the identified the general pattern of the flags in this series of challenges as <infosec_flagis_XYZ>, I thought of searching the file for this particular string pattern using commands like strings and grep. 
+The command is – Strings app.exe | grep infosec_flagis
+And sure enough, I get the flag.
+
+The Flag is - infosec_flagis_0x1a
