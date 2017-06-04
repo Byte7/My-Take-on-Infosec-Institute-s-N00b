@@ -1,0 +1,6 @@
+Writeup -
+
+The caption below the image of yoda is a hint for the flag.”May the source be with you”.
+A quick right click and selection of option ‘view page source’ reveals us the Flag for this level.
+
+The Flag is – infosec_flagis_welcome
