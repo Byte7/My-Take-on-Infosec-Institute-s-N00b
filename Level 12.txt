@@ -1,0 +1,10 @@
+Writeup - 
+
+The pic is the same from level one. So, this means that we have to go through the source code for the page. 
+A quick look on the html code gives no clue or anything as I don’t see any encoded message in the code.
+Then, moving onto the CSS files, I first looked up in custom.css file. It’s usual CSS styling elements. 
+Second file is the design.css file. Opening this file gives – a class named as thisloveis.
+There is a single color property in it.But the text is not specified for color.
+So the text after # is our required flag in HEX. So fire up google and convert this to ASCII.
+
+The Flag is - infosec_flagis_heyimnotacolor
