@@ -1,0 +1,12 @@
+Writeup -
+
+This level has a infinite loop in the JS script. 
+So after disabling the JS Script for the page from the browser, we are redirected to another page where there is an image. 
+Downloaded the image and since I suspected Steganography here , I used steghide to check and fair enough it was stegano image.
+Used the following command to extract the text –
+steghide extract –sf aliens.jpg
+For passphrase, enter a blank pass phrase. 
+The flag is extracted into a file called all.txt which is binary in data. 
+Use any binary to text converter for converting the text into readable text.
+
+The Flag is - infosec_flagis_stegaliens
