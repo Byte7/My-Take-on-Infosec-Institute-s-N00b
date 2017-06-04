@@ -1,0 +1,14 @@
+Writeup -
+
+The level begins with the some lines at the page. 
+Now, after solving previous challenges, I have observed the level url have endings as “level<levelnumber>.php”.
+But in this case this has 404.php. I tried accessing the levelseven.php page and was greeted by a blank window.
+So, while  going through the page source, I got struck with the idea of cookies which yielded no result.
+This led me to the idea of proxy. 
+The addon of web developer toolbar helped here and by selecting options as follows I got the response headers for the levelseven.php page –
+Information ----> View Response Headers
+I am greeted with -----> response headers for level seven page.
+The last line is familiar from earlier challenge and is a base64 encoding. 
+Decode the line either using terminal using echo command or let hackbar addon do it for you.
+
+The Flag is – infosec_flagis_youfoundit  
