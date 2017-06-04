@@ -1,0 +1,22 @@
+Writeup -
+
+A quick look at the page hits me with two things ---
+1.The file  is not present in the folder.
+2.If the file is present, its not an image file. 
+
+A look through the source code and clicking on the file reveals that the file is present.Hence, that leaves us with option two.
+We can download the file by going through the file structure of the site.Type the link in browser and hit Ctrl + S to save the image.
+The link is – 
+http://ctf.infosecinstitute.com/img/leveltwo.jpeg
+
+Use the file command to find out the type of the file.
+File leveltwo.jpeg
+Got the result as – ASCII text
+
+Use the cat command to see the contents – 
+The flag seems to be encrypted with alphanumeric so I suspect a base64 encryption
+
+Decode it using terminal as –
+echo 'aW5mb3NlY19mbGFnaXNfd2VhcmVqdXN0c3RhcnRpbmc=' | base64 --decode
+
+The Flag is - infosec_flagis_wearejuststarting
