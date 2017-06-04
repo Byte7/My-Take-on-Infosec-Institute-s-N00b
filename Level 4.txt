@@ -1,0 +1,7 @@
+Writeup - 
+
+The pic has a on mouseover effect of JS. Simply going through the cookies after hitting F12 gave the flag.
+The flag was set as cookie and encoded as Rot13.
+Decode using any online Rot13 decoder.
+
+The Flag is - infosec_flagis_welovecookies
