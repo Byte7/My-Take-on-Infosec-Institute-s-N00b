@@ -1,0 +1,14 @@
+Writeup -
+
+A QR code is given with a progress bar under it.
+A look of few seconds gives the clue that progress bar is not going on to 100%.
+So a quick look at the source code reveals that it is hardwired to be at 90%.So, mostly a distraction I guess.
+
+Now moving the QR code, the QR code is decoded using an online QR code decoder. I googled for QR for decoder and found this one –
+https://zxing.org/w/decode.jspx
+The parsed result of dots and dash give us the idea of the famous morse code.
+I decoded the morse code using an online morse code decoder here – 
+http://morsecode.scphillips.com/translator.html
+The decoded morse code gives the flag.
+
+The Flag is - INFOSECFLAGISMORSING
