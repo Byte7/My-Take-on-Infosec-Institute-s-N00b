@@ -1,0 +1,12 @@
+Writeup - 
+
+The 9th level has the login page.The username and password fields means that a password cracking type problem.
+Before using Jack the Ripper or even brute forcing for password, always check out first for the default passwords.
+I googled for cisco ids default passwords and was given the default username and password by various sites. 
+After going through the list of username and passwords, I tried out the classic combination of “root + attack” as “username+password”…..
+And Voila!!!!! I got the flag. 
+A close look at the flag reveals it is mirrored.
+So, fireup another tab and google mirroring text sites, put it in text box and you get the flag.
+Or if you don’t want to do that, then simply see the text and read it backwards…..easy enough...
+
+The Flag is - infosec_flagis_defaultpass
