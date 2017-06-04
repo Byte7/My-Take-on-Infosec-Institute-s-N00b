@@ -1,0 +1,10 @@
+Writeup - 
+
+The LEVEL 6 begins with us downloading a .pcap file which is to be analysed using the packet sniffer tool. 
+I used wireshark for the same.Open the file using wireshark. 
+Going through the captured packets we come across various captured packets of TCP and TLSv1 protocol packets. 
+All these seem to be some packets that are not important to our cause.
+We come across a packet of UDP protocol and things get interesting here. Note the .pcap file has only a single UDP packet.
+The data in this packet is a HEX converted one ,so using an online Hex to ASCII convertor(Our flag being in readable format,hence ASCII numbers …..), I got the flag.
+
+The Flag is - infosec_flagis_sniffed
