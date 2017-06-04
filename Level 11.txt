@@ -1,0 +1,10 @@
+Writeup -
+
+We have a PHP labelled image for the 11th level below the Smeagol gif from the last level.
+Download the php image. I started with the string command coupled with grep as –
+Strings php-logo-virus.jpg|grep infosec_flagis
+The flag is the encoded string after the infosec_flagis_<this is the flag>.
+Decode the flag using terminal or hackbar addon to get the flag.
+I get a link as http://www.rollerski.co.uk/imagesb/powerslide_logo_large.gif
+
+The Flag is – infosec_flagis_POWERSLIDE
